@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre:500,500i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+
+* {
+	background-color: #1D1D1D;
+}
+a {
+	color: #EC9110;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.intro {
+	max-width: 1200px;
+	display: inline-block;
+	font-family: 'Roboto Mono';
+	color: #FF4A4A;
+	font-weight: 500;
+	font-size: 40px;
+}
+body {
+	font-color: #EBEBEB;
+	max-width: 1600px;
+	margin-left: 5%;
+	display: inline-block;
+}
+.title {
+	line-height: .5em;
+	font-family: 'Roboto Mono';
+	font-size: 40px;
+	font-weight: 700;
+	color: #EBEBEB;
+}
+.link {
+	text-align: left;
+	line-height: 1.5;
+	font-family: 'Roboto Mono';
+	color: #EC9110;
+} 
+.menu {
+	text-align: left;
+	line-height: 1.5;
+	font-family: 'Roboto Mono';
+	color: #EC9110;
+	font-size: 24px;
+}
+.menu2 {
+	text-align: left;
+	font-family: 'Roboto Mono';
+	color: #FF4A4A;
+	font-size: 32px;
+	display: inline block;
+}

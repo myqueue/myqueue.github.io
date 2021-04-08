@@ -13,6 +13,7 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
 .intro {
 	max-width: 1200px;
 	display: inline-block;
@@ -40,6 +41,9 @@ body {
 	font-family: 'Roboto Mono';
 	color: #EC9110;
 } 
+.link a:visited {
+	color: #8a6e5a;
+}
 .menu {
 	text-align: left;
 	line-height: 1.5;
@@ -54,3 +58,13 @@ body {
 	font-size: 32px;
 	display: inline block;
 }
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #4a4a4a; 
+	border-radius: 10px;
+  }
